@@ -1,5 +1,16 @@
 import os
-from .syntax_highlight import syntax
+from IPython.core.magic import register_cell_magic
+from IPython import get_ipython
+
+
+try:
+
+    @register_cell_magic
+    def syntax(line, cell):
+        return None
+
+except:
+    pass
 
 
 def _jupyter_nbextension_paths():
