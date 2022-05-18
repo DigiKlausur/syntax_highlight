@@ -3,9 +3,11 @@ Cell magic to highlight different languages
 
 ## Installation
 
-`pip install --no-cache-dir git+https://github.com/Digiklausur/syntax_highlight`
-`jupyter nbextension install --py --sys-prefix syntax_highlight`
-`jupyter nbextension enable --py --sys-prefix syntax_highlight`
+```
+pip install --no-cache-dir git+https://github.com/Digiklausur/syntax_highlight
+jupyter nbextension install --py --sys-prefix syntax_highlight
+jupyter nbextension enable --py --sys-prefix syntax_highlight
+```
 
 ## Usage
 
